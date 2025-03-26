@@ -1,0 +1,27 @@
+[project]
+name = "viz4sci"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Bruno Goncalves",email = "bgoncalves@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "plotly (>=6.0.1,<7.0.0)",
+    "bokeh (>=3.7.0,<4.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "numpy (>=2.2.4,<3.0.0)",
+    "ipython (>=9.0.2,<10.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "watermark (>=2.5.0,<3.0.0)",
+    "cartopy (>=0.24.1,<0.25.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
